@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "comeON",
+    "slug": "comeON",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "comeON"
+}
