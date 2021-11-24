@@ -3,6 +3,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import theme from "../../styles/theme";
 import { Button } from "../../components/Button";
+import { SettingsOption } from "../../components/SettingsOption";
 
 import {
   Container,
@@ -13,6 +14,7 @@ import {
   Username,
   UserLocation,
   UserLocationContainer,
+  OptionsContainer,
 } from "./styles";
 
 export function Settings() {
@@ -41,6 +43,10 @@ export function Settings() {
           <UserLocation>Berlin, Germany</UserLocation>
         </UserLocationContainer>
       </ProfileContainer>
+
+      <OptionsContainer>
+        <SettingsOption iconName="credit-card" optionDescription="My Tickets" />
+      </OptionsContainer>
     </Container>
   );
 }

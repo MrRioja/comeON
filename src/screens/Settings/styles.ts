@@ -4,13 +4,13 @@ import { getStatusBarHeight } from "react-native-iphone-x-helper";
 
 export const Container = styled.View`
   flex: 1;
+  padding: 0px 24px;
   background-color: ${({ theme }) => theme.colors.background};
 `;
 
 export const Header = styled.View`
   width: 100%;
   height: 75px;
-  padding: 0px 24px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -52,4 +52,8 @@ export const UserLocationContainer = styled.View`
 export const UserLocation = styled.Text`
   margin-left: 5px;
   font-family: ${({ theme }) => theme.fonts.primary_700};
+`;
+
+export const OptionsContainer = styled.View`
+  /* border: 1px solid red; */
 `;
