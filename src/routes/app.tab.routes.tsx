@@ -24,7 +24,6 @@ export function AppTabRoutes() {
         tabBarInactiveTintColor: theme.colors.text_primary,
         tabBarStyle: {
           height: 80,
-          elevation: 0,
           position: "absolute",
           paddingHorizontal: 20,
           borderTopLeftRadius: 50,
