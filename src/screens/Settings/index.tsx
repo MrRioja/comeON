@@ -45,7 +45,13 @@ export function Settings() {
       </ProfileContainer>
 
       <OptionsContainer>
-        <SettingsOption iconName="credit-card" optionDescription="My Tickets" />
+        <SettingsOption iconName="credit-card" optionDescription="My tickets" />
+
+        <SettingsOption iconName="user" optionDescription="Profile settings" />
+
+        <SettingsOption iconName="credit-card" optionDescription="Payment" />
+
+        <SettingsOption iconName="bell" optionDescription="Notifications" />
       </OptionsContainer>
     </Container>
   );
