@@ -60,7 +60,7 @@ export function Settings() {
           <OptionsTitle>General</OptionsTitle>
         </OptionsHeader>
 
-        <SettingsOption iconName="credit-card" optionDescription="My tickets" />
+        <SettingsOption iconName="file" optionDescription="My tickets" />
 
         <SettingsOption iconName="user" optionDescription="Profile settings" />
 

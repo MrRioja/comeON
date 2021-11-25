@@ -1,6 +1,5 @@
 import React from "react";
 import { Feather } from "@expo/vector-icons";
-import { Text } from "react-native";
 
 import { Container, IconContainer, Option, OptionTitle } from "./styles";
 import theme from "../../styles/theme";
