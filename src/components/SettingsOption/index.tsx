@@ -14,7 +14,7 @@ export function SettingsOption({ iconName, optionDescription }: IProps) {
   return (
     <Container>
       <IconContainer>
-        <Feather name={iconName} color={theme.colors.main} size={24} />
+        <Feather name={iconName} color={theme.colors.main} size={20} />
       </IconContainer>
 
       <Option>
@@ -23,7 +23,7 @@ export function SettingsOption({ iconName, optionDescription }: IProps) {
         <Feather
           name="chevron-right"
           color={theme.colors.text_secondary}
-          size={24}
+          size={20}
         />
       </Option>
     </Container>
