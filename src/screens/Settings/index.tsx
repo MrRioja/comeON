@@ -15,6 +15,9 @@ import {
   UserLocation,
   UserLocationContainer,
   OptionsContainer,
+  OptionsHeader,
+  OptionDash,
+  OptionsTitle,
 } from "./styles";
 
 export function Settings() {
@@ -45,6 +48,11 @@ export function Settings() {
       </ProfileContainer>
 
       <OptionsContainer>
+        <OptionsHeader>
+          <OptionDash />
+          <OptionsTitle>General</OptionsTitle>
+        </OptionsHeader>
+
         <SettingsOption iconName="credit-card" optionDescription="My tickets" />
 
         <SettingsOption iconName="user" optionDescription="Profile settings" />

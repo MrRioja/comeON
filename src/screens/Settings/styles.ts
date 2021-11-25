@@ -2,7 +2,9 @@ import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { getStatusBarHeight } from "react-native-iphone-x-helper";
 
-export const Container = styled.View`
+export const Container = styled.ScrollView.attrs({
+  showsVerticalScrollIndicator: false,
+})`
   flex: 1;
   background-color: ${({ theme }) => theme.colors.background};
 `;
@@ -55,12 +57,31 @@ export const UserLocation = styled.Text`
   font-family: ${({ theme }) => theme.fonts.primary_700};
 `;
 
-export const OptionsContainer = styled.ScrollView.attrs({
-  showsVerticalScrollIndicator: false,
-})`
+export const OptionsContainer = styled.View`
   width: 100%;
   height: 100%;
-  padding: 20px 24px;
+  padding: 20px 0;
   margin-bottom: 100px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   background-color: ${({ theme }) => theme.colors.white};
+`;
+
+export const OptionsHeader = styled.View`
+  padding: 0 24px;
+  margin-bottom: 10px;
+`;
+
+export const OptionDash = styled.View`
+  width: 40px;
+  height: 5px;
+  border-radius: 2.5px;
+  align-self: center;
+  background-color: ${({ theme }) => theme.colors.text_secondary};
+`;
+
+export const OptionsTitle = styled.Text`
+  font-size: ${RFValue(15)}px;
+  color: ${({ theme }) => theme.colors.text_secondary};
+  font-family: ${({ theme }) => theme.fonts.primary_700};
 `;
