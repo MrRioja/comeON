@@ -1,4 +1,5 @@
 import React from "react";
+import { StatusBar } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import theme from "../../styles/theme";
@@ -23,6 +24,12 @@ import {
 export function Settings() {
   return (
     <Container>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
+
       <Header>
         <Title>Settings</Title>
 
