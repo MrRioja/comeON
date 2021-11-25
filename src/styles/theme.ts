@@ -6,7 +6,7 @@ export default {
     background: "#FAFBFF",
     main_light: "#EBF0FE",
     text_primary: "#000000",
-    types_filter: "##F4F4F6",
+    types_filter: "#F4F4F6",
     text_secondary: "#8E94A3",
   },
 
