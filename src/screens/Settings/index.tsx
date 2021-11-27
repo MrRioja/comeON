@@ -42,12 +42,16 @@ export function Settings() {
   const headerStyleAnimation = useAnimatedStyle(() => {
     return {
       opacity: interpolate(scrollY.value, [0, 80], [1, 0], Extrapolate.CLAMP),
-      translateX: interpolate(
-        scrollY.value,
-        [0, 40],
-        [0, 100],
-        Extrapolate.CLAMP
-      ),
+      transform: [
+        {
+          translateX: interpolate(
+            scrollY.value,
+            [0, 40],
+            [0, 100],
+            Extrapolate.CLAMP
+          ),
+        },
+      ],
     };
   });
 
