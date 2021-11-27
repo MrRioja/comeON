@@ -26,8 +26,7 @@ export function Settings() {
     <Container>
       <StatusBar
         barStyle="dark-content"
-        backgroundColor="transparent"
-        translucent
+        backgroundColor={theme.colors.background}
       />
 
       <Header>
