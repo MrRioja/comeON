@@ -1,6 +1,5 @@
 import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
-import { getStatusBarHeight } from "react-native-iphone-x-helper";
 
 export const Header = styled.View`
   width: 100%;
@@ -10,7 +9,7 @@ export const Header = styled.View`
   align-items: center;
   justify-content: space-between;
   margin-bottom: ${RFValue(30)}px;
-  margin-top: ${getStatusBarHeight() + RFValue(15)}px;
+  margin-top: ${RFValue(25)}px;
 `;
 
 export const Title = styled.Text`

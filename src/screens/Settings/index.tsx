@@ -47,7 +47,7 @@ export function Settings() {
           translateX: interpolate(
             scrollY.value,
             [0, 40],
-            [0, 100],
+            [0, 105],
             Extrapolate.CLAMP
           ),
         },
