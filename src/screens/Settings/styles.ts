@@ -2,13 +2,6 @@ import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { getStatusBarHeight } from "react-native-iphone-x-helper";
 
-export const Container = styled.ScrollView.attrs({
-  showsVerticalScrollIndicator: false,
-})`
-  flex: 1;
-  background-color: ${({ theme }) => theme.colors.background};
-`;
-
 export const Header = styled.View`
   width: 100%;
   height: 75px;
@@ -16,7 +9,7 @@ export const Header = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: ${RFValue(50)}px;
+  margin-bottom: ${RFValue(30)}px;
   margin-top: ${getStatusBarHeight() + 15}px;
 `;
 
