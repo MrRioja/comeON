@@ -11,6 +11,7 @@ import {
 
 import { Routes } from "./src/routes";
 import theme from "./src/styles/theme";
+import { StatusBar } from "react-native";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,6 +26,10 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor={theme.colors.background}
+      />
       <Routes />
     </ThemeProvider>
   );
