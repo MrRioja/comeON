@@ -1,5 +1,4 @@
 import React from "react";
-import { StatusBar } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import Animated, {
   Extrapolate,
@@ -62,11 +61,6 @@ export function Settings() {
       scrollEventThrottle={16}
       style={[{ backgroundColor: theme.colors.background, flex: 1 }]}
     >
-      <StatusBar
-        barStyle="dark-content"
-        backgroundColor={theme.colors.background}
-      />
-
       <Animated.View style={headerStyleAnimation}>
         <Header>
           <Title>Settings</Title>
