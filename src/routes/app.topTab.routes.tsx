@@ -7,6 +7,7 @@ import { Tours } from "../screens/Tours";
 import { Adventures } from "../screens/Adventures";
 
 import theme from "../styles/theme";
+import { RFValue } from "react-native-responsive-fontsize";
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -20,13 +21,21 @@ export function FavoritesTabs() {
         tabBarActiveTintColor: theme.colors.main,
         tabBarPressColor: theme.colors.background,
         tabBarInactiveTintColor: theme.colors.text_primary,
-        tabBarStyle: { backgroundColor: theme.colors.background },
+        tabBarStyle: {
+          backgroundColor: theme.colors.background,
+        },
+        tabBarLabelStyle: {
+          marginBottom: 10,
+          fontSize: RFValue(15),
+          textTransform: "capitalize",
+          fontFamily: theme.fonts.primary_400,
+        },
         tabBarIndicatorStyle: {
           width: dotSize,
           height: dotSize,
           borderRadius: dotSize / 2,
           left: (w / 3 - dotSize) / 2,
-          marginBottom: 3,
+          marginBottom: 5,
         },
       }}
     >
