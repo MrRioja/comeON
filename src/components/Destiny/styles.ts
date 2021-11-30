@@ -37,7 +37,7 @@ export const DestinyImage = styled.Image`
   border-radius: 15px;
 `;
 
-export const DestinyContainer = styled.View`
+export const DestinyContainer = styled(RectButton)`
   width: 100%;
   height: 30%;
   padding: 0 10px;
