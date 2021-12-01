@@ -32,6 +32,7 @@ export function AppTabRoutes() {
           backgroundColor: theme.colors.white,
           paddingVertical: Platform.OS === "ios" ? 20 : 0,
         },
+        tabBarHideOnKeyboard: true,
       }}
     >
       <Screen
