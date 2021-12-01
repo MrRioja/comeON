@@ -16,6 +16,6 @@ export const SearchBarInput = styled.TextInput`
   width: 100%;
   margin-left: 10px;
   font-size: ${RFValue(15)}px;
-  color: ${({ theme }) => theme.colors.text_secondary};
+  color: ${({ theme }) => theme.colors.text_primary};
   font-family: ${({ theme }) => theme.fonts.primary_700};
 `;
