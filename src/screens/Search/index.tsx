@@ -10,6 +10,7 @@ import theme from "../../styles/theme";
 
 import { Button } from "../../components/Button";
 import { SearchBar } from "../../components/SearchBar";
+import { PopularPlaces } from "../../components/PopularPlaces";
 
 export function Search() {
   return (
@@ -27,6 +28,8 @@ export function Search() {
             placeholderTextColor={theme.colors.text_secondary}
             selectionColor={theme.colors.text_secondary}
           />
+
+          <PopularPlaces />
         </Container>
       </TouchableWithoutFeedback>
     </KeyboardAvoidingView>
