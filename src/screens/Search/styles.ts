@@ -14,6 +14,7 @@ export const Header = styled.View`
   height: ${RFValue(75)}px;
   margin-top: ${RFValue(25)}px;
   justify-content: space-between;
+  margin-bottom: ${RFValue(10)}px;
 `;
 
 export const Title = styled.Text`
