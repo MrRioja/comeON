@@ -1,6 +1,5 @@
 import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
-import theme from "../../styles/theme";
 
 export const Container = styled.View`
   width: 100%;
