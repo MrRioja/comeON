@@ -3,11 +3,12 @@ import styled from "styled-components/native";
 
 export const Container = styled.View`
   flex: 1;
+  padding: 0px 24px;
 `;
 
 export const Title = styled.Text`
   margin-bottom: 15px;
-  font-size: ${RFValue(18)}px;
+  font-size: ${RFValue(20)}px;
   font-family: ${({ theme }) => theme.fonts.primary_700};
 `;
 

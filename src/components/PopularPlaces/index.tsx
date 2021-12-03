@@ -51,6 +51,7 @@ export function PopularPlaces() {
             </PlaceDetails>
           </PlaceContainer>
         )}
+        contentContainerStyle={{ paddingBottom: 100 }}
       />
     </Container>
   );
