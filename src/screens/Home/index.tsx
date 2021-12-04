@@ -1,11 +1,24 @@
 import React from "react";
+import { Button } from "../../components/Button";
 
-import { Container, Title } from "./styles";
+import { PopularPlaces } from "../../components/PopularPlaces";
+import { FavoritesTabs } from "../../routes/app.topTabExplore.routes";
+import theme from "../../styles/theme";
+
+import { Container, Header, Title } from "./styles";
 
 export function Home() {
   return (
     <Container>
-      <Title>Home Screen</Title>
+      <Header>
+        <Title>Explore</Title>
+
+        <Button name="filter" color={theme.colors.text_primary} />
+      </Header>
+
+      <FavoritesTabs />
+
+      <PopularPlaces />
     </Container>
   );
 }
