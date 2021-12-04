@@ -23,7 +23,7 @@ export function FavoritesTabs() {
         tabBarInactiveTintColor: theme.colors.text_primary,
         tabBarStyle: {
           backgroundColor: theme.colors.background,
-          shadowColor: theme.colors.background,
+          elevation: 0,
         },
         tabBarLabelStyle: {
           marginBottom: 10,
