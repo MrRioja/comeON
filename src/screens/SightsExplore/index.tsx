@@ -1,34 +1,91 @@
 import React from "react";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { LinearGradient } from "expo-linear-gradient";
+import { FlatList } from "react-native";
 
-import { Destiny } from "../../components/Destiny";
+import {
+  Container,
+  CategoryCount,
+  PlaceContainer,
+  PlaceImage,
+  PlaceName,
+  RatingContainer,
+  AverageRating,
+} from "./styles";
 
-import { Container } from "./styles";
+const places = [
+  {
+    id: "1",
+    uri: "https://images.pexels.com/photos/1570610/pexels-photo-1570610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    destinyName: "Machu Picchu",
+    rating: 4,
+    numEvaluations: 150,
+  },
+  {
+    id: "2",
+    uri: "https://images.pexels.com/photos/306381/pexels-photo-306381.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    destinyName: "Victoria Falls",
+    rating: 5,
+    numEvaluations: 200,
+  },
+  {
+    id: "3",
+    uri: "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    destinyName: "Maldives",
+    rating: 4,
+    numEvaluations: 250,
+  },
+  {
+    id: "4",
+    uri: "https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    destinyName: "Vaitāpē",
+    rating: 5,
+    numEvaluations: 300,
+  },
+];
 
 export function SightsExplore() {
   return (
     <Container>
-      <Destiny
-        uri="https://images.pexels.com/photos/1570610/pexels-photo-1570610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-        destinyName="Machu Picchu"
-        destinyPeriod="30 April - 12 May 2021"
-      />
+      <CategoryCount>{places.length} Sights</CategoryCount>
 
-      <Destiny
-        uri="https://images.pexels.com/photos/306381/pexels-photo-306381.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        destinyName="Victoria Falls"
-        destinyPeriod="23 Jun - 30 Jun 2021"
-      />
+      <FlatList
+        horizontal
+        data={places}
+        keyExtractor={(item) => item.id}
+        showsHorizontalScrollIndicator={false}
+        renderItem={({ item }) => (
+          <PlaceContainer>
+            <PlaceImage source={{ uri: item.uri }} resizeMode="cover">
+              <LinearGradient
+                colors={["transparent", "rgba(0,0,0, 0.7)", "#000"]}
+                style={{
+                  width: "100%",
+                  paddingBottom: 20,
+                  paddingTop: 10,
+                  borderBottomLeftRadius: 20,
+                  borderBottomRightRadius: 20,
+                  paddingHorizontal: 20,
+                }}
+              >
+                <RatingContainer>
+                  {Array.from({ length: item.rating }).map((_, index) => (
+                    <MaterialCommunityIcons
+                      name="star"
+                      color="yellow"
+                      key={index}
+                      size={15}
+                    />
+                  ))}
+                  <AverageRating>{item.rating}</AverageRating>
+                </RatingContainer>
 
-      <Destiny
-        uri="https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        destinyName="Maldives"
-        destinyPeriod="26 Jun - 29 Jun 2021"
-      />
-
-      <Destiny
-        uri="https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-        destinyName="Vaitāpē, French Polynesia"
-        destinyPeriod="15 Mar - 19 Mar 2021"
+                <PlaceName>{item.destinyName}</PlaceName>
+              </LinearGradient>
+            </PlaceImage>
+          </PlaceContainer>
+        )}
+        contentContainerStyle={{ paddingLeft: 24, paddingRight: 9 }}
       />
     </Container>
   );
