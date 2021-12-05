@@ -38,6 +38,7 @@ export function FavoritesTabs() {
           left: (w / 3 - dotSize) / 2,
           marginBottom: 5,
         },
+        swipeEnabled: false,
       }}
     >
       <Tab.Screen name="Sights" component={SightsExplore} />
