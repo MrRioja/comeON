@@ -8,10 +8,13 @@ import {
   CategoryCount,
   PlaceContainer,
   PlaceImage,
+  Bookmark,
   PlaceName,
   RatingContainer,
   AverageRating,
 } from "./styles";
+
+import theme from "../../styles/theme";
 
 const places = [
   {
@@ -57,6 +60,14 @@ export function AdventuresExplore() {
         renderItem={({ item }) => (
           <PlaceContainer>
             <PlaceImage source={{ uri: item.uri }} resizeMode="cover">
+              <Bookmark>
+                <MaterialCommunityIcons
+                  name="heart"
+                  size={24}
+                  color={theme.colors.main}
+                />
+              </Bookmark>
+
               <LinearGradient
                 colors={["transparent", "rgba(0,0,0, 0.7)", "#000"]}
                 style={{

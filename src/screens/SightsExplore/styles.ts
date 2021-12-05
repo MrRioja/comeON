@@ -1,3 +1,4 @@
+import { RectButton } from "react-native-gesture-handler";
 import { RFValue } from "react-native-responsive-fontsize";
 import styled from "styled-components/native";
 
@@ -24,6 +25,18 @@ export const PlaceImage = styled.ImageBackground.attrs({
 })`
   flex: 1;
   justify-content: flex-end;
+`;
+
+export const Bookmark = styled(RectButton)`
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: ${({ theme }) => theme.colors.white};
 `;
 
 export const RatingContainer = styled.View`
