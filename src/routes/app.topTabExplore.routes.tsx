@@ -11,7 +11,7 @@ import { RFValue } from "react-native-responsive-fontsize";
 
 const Tab = createMaterialTopTabNavigator();
 
-export function FavoritesTabs() {
+export function ExploreTabs() {
   const w = Dimensions.get("window").width;
   const dotSize = 7;
 
