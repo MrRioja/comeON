@@ -47,7 +47,7 @@ export const RatingContainer = styled.View`
 
 export const AverageRating = styled.Text`
   margin-left: 5px;
-  font-size: ${RFValue(10)}px;
+  font-size: ${RFValue(12)}px;
   color: ${({ theme }) => theme.colors.white};
   font-family: ${({ theme }) => theme.fonts.primary_700};
 `;
