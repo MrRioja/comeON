@@ -30,6 +30,19 @@ const places = [
     destinyName: "Montain bike",
     destinyPeriod: "01 Nov - 12 Nov 2021",
   },
+  {
+    id: "4",
+    uri: "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    destinyName: "Schönau am Königssee",
+    destinyPeriod: "01 Mar - 09 Mar 2021",
+  },
+
+  {
+    id: "5",
+    uri: "https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    destinyName: "Caribe",
+    destinyPeriod: "01 Apr - 09 Apr 2021",
+  },
 ];
 
 export function PopularPlaces() {

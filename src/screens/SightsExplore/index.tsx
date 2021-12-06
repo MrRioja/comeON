@@ -45,6 +45,13 @@ const places = [
     rating: 5,
     numEvaluations: 300,
   },
+  {
+    id: "5",
+    uri: "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    destinyName: "Canada",
+    rating: 5,
+    numEvaluations: 300,
+  },
 ];
 
 export function SightsExplore() {

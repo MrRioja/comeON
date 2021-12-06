@@ -30,6 +30,12 @@ export function Sights() {
         destinyName="Vaitāpē, French Polynesia"
         destinyPeriod="15 Mar - 19 Mar 2021"
       />
+
+      <Destiny
+        uri="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        destinyName="Canada"
+        destinyPeriod="01 Mar - 09 Mar 2021"
+      />
     </Container>
   );
 }

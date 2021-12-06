@@ -45,6 +45,14 @@ const places = [
     rating: 4,
     numEvaluations: 150,
   },
+
+  {
+    id: "5",
+    uri: "https://images.pexels.com/photos/1252399/pexels-photo-1252399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    destinyName: "Improvement District",
+    rating: 4,
+    numEvaluations: 150,
+  },
 ];
 
 export function AdventuresExplore() {

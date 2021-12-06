@@ -30,6 +30,12 @@ export function Adventures() {
         destinyName="Stand up paddle"
         destinyPeriod="13 Feb - 15 Jul 2021"
       />
+
+      <Destiny
+        uri="https://images.pexels.com/photos/1252399/pexels-photo-1252399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        destinyName="Improvement District No. 9, Canada"
+        destinyPeriod="25 Aug - 29 Aug 2021"
+      />
     </Container>
   );
 }

@@ -30,6 +30,12 @@ export function Tours() {
         destinyName="Egypt"
         destinyPeriod="21 Jan - 25 Dec 2021"
       />
+
+      <Destiny
+        uri="https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        destinyName="Taj Mahal"
+        destinyPeriod="21 Oct - 25 Oct 2021"
+      />
     </Container>
   );
 }

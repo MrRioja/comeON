@@ -45,6 +45,14 @@ const places = [
     rating: 5,
     numEvaluations: 150,
   },
+
+  {
+    id: "5",
+    uri: "https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    destinyName: "Taj Mahal",
+    rating: 5,
+    numEvaluations: 150,
+  },
 ];
 
 export function ToursExplore() {
