@@ -11,7 +11,7 @@ O mundo na palma da mão.
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=come&message=on&color=blueviolet&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/OmniStack-8?color=blueviolet&logo=License&style=for-the-badge"/>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/comeON?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/comeON?color=blueviolet&logo=TypeScript&logoColor=white&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/comeON?color=blueviolet&style=for-the-badge">
 </p>
 <br>
