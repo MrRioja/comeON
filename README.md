@@ -58,11 +58,9 @@ $ expo start
 
 ## Tecnologias
 
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="75" />
+<img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJUTB6A7gHTPf90vwqsjKxBhGH3acJrzQXw&usqp=CAU" alt="React Native" height="75" />
 
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="75"/>
-
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="75" />
+<img align="left" src="https://miro.medium.com/max/512/1*3o8TOSojT64ChGpjop0USA.png" alt="Expo" height="75" />
 
 <br><br><br><br><br><br>
 
