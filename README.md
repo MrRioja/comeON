@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./readme/map.jpg" alt="Logo" height='300px'/>
+  <img src="./readme/map.jpg" alt="Logo" height="450px"/>
   <br>
 </p>
 <h3 align="center">
