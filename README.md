@@ -28,6 +28,9 @@ O mundo na palma da mão.
 
 ## Sobre
 
+Projeto desenvolvido com o intuito de colocar em pratica as habilidades adiquiridas durante o Ignite.
+O projeto foi inspirado [nesse design](https://dribbble.com/shots/15074082-Travel-App-Onboarding-Animation) publicado no Dribbble.
+
 ## ComeON
 
 ## Instalação
