@@ -102,7 +102,7 @@ $ expo start
 
 ## Tecnologias
 
-<img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJUTB6A7gHTPf90vwqsjKxBhGH3acJrzQXw&usqp=CAU" alt="React Native" height="75" />
+<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png" alt="React Native" height="75" />
 
 <img align="left" src="https://miro.medium.com/max/512/1*3o8TOSojT64ChGpjop0USA.png" alt="Expo" height="75" />
 
